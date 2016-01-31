@@ -1,0 +1,2 @@
+c:\users\moham\documents\visual studio 2015\Projects\LightsDemo\LightsDemo\LightsDemo.csproj;x86
+E:\STUDIES\Windows 8 Store Apps\CODE SAMPLES\HAS Arduino Project\ArduinoBluetoothLibrary\ArduinoBluetoothLibrary\ArduinoBluetoothLibrary.csproj;neutral

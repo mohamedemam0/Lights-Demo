@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.2">
+  <CommandSet xml:lang="en-us" Name="UniversalAppCommandSet_en-us">
+    <CommandPrefix> My Cortana </CommandPrefix>
+    <Example> Can you please turn the light on? </Example>
+
+    <Command Name="TurnOn">
+      <Example>  Turn the light on.  </Example>
+      <ListenFor > Turn the light on. </ListenFor>
+      <Feedback> Turnning the light on....</Feedback>
+      <Navigate/>
+    </Command>
+
+    <Command Name="TurnOff">
+      <Example>  Turn the light off.  </Example>
+      <ListenFor > Turn the light off. </ListenFor>
+      <Feedback> Turnning the light off....</Feedback>
+      <Navigate/>
+    </Command>
+  </CommandSet>
+</VoiceCommands>

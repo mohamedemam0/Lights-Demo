@@ -1,0 +1,22 @@
+﻿<Application x:Class="LightsDemo.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="using:LightsDemo"
+             RequestedTheme="Light"
+             xmlns:ardconn="using:ArduinoBluetooth.Connection"
+             xmlns:ardconv="using:ArduinoBluetooth.Converter">
+
+    <Application.Resources>
+        <!-- Application-specific resources -->
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <!--a BluetoothConnectionManager and a UIConverter, available everywhere within this app-->
+                <ResourceDictionary>
+                    <ardconn:BluetoothConnectionManager x:Key="BluetoothManager" />
+                    <ardconv:BluetoothStateConverter x:Key="StateConverter" />
+                </ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+
+</Application>
